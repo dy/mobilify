@@ -38,6 +38,7 @@
     "normalize.css": "latest",
     "object-assign": "^4.1.1",
     "pkg-up": "^2.0.0",
+    "stream-replace": "^1.0.0",
     "stream-to-string": "^1.1.0",
     "string-to-stream": "^1.1.0",
     "typedarray-methods": "^1.0.1",

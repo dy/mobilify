@@ -20,4 +20,5 @@ toString(toStream(
 `
 ).pipe(mobilify())).then(data => {
   assert(data.length > 1000)
+  assert(!/global/.test(data))
 })

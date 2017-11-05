@@ -11,6 +11,7 @@ var toStream = require('string-to-stream')
 var wrap = require('wrap-stream')
 var add = require('add-stream')
 var minify = require('minify-stream')
+var replace = require('stream-replace')
 
 module.exports = mobilify;
 
@@ -39,6 +40,7 @@ function mobilify (opts) {
   var jsStream = assetStream('array.js')
     .pipe(add(depStream('typedarray-methods')))
     .pipe(add(depStream('get-float-time-domain-data')))
+    .pipe(replace(/global\./ig, 'window.'))
     .pipe(minify({ sourceMap: false }))
     .pipe(wrap('<script>', '</script>'))
 
