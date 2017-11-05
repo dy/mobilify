@@ -22,7 +22,7 @@ fs.createReadStream('index.html')
   .pipe(fs.createWriteStream('output.html'))
 ```
 
-It takes a stream of html and includes mobile meta tags, [`normalize.css`](https://www.npmjs.com/package/normalize.css), polyfills typed arrays and `Array.fill`.
+It takes a stream of html and includes mobile meta tags, [`normalize.css`](https://www.npmjs.com/package/normalize.css), [polyfills typed arrays methods](https://npmjs.org/package/typedarray-methods) and `Array.fill`.
 
 ### See Also
 
