@@ -1,6 +1,6 @@
 {
   "name": "mobilify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Make stream of html mobile-friendly",
   "main": "index.js",
   "bin": "cli.js",
