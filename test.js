@@ -1,6 +1,6 @@
 'use strict';
 
-var mobilify = require('../')
+var mobilify = require('./')
 var assert = require('assert')
 var toString = require('stream-to-string')
 var fs = require('fs')
