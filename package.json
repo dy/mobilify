@@ -1,0 +1,48 @@
+{
+  "name": "mobilify",
+  "version": "1.0.0",
+  "description": "Make stream of html mobile-friendly",
+  "main": "index.js",
+  "bin": "cli.js",
+  "author": {
+    "name": "Dmitry Yvanov",
+    "email": "df.creative@gmail.com"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dfcreative/mobilify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dfcreative/mobilify/issues",
+    "email": "df.creative@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "github",
+    "enable-mobile",
+    "mobile",
+    "mobilify",
+    "repo",
+    "metadata",
+    "repository"
+  ],
+  "dependencies": {
+    "add-stream": "^1.0.0",
+    "defined": "^1.0.0",
+    "get-float-time-domain-data": "^0.1.0",
+    "hyperstream": "^1.2.2",
+    "minify-stream": "^1.1.0",
+    "normalize.css": "latest",
+    "object-assign": "^4.1.1",
+    "pkg-up": "^2.0.0",
+    "stream-to-string": "^1.1.0",
+    "string-to-stream": "^1.1.0",
+    "typedarray-methods": "^1.0.1",
+    "uglifycss": "0.0.27",
+    "wrap-stream": "^2.0.0"
+  },
+  "devDependencies": {}
+}
